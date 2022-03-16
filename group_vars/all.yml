@@ -2,4 +2,4 @@
 controller_user_accounts:
   - user: "jcadmus"
     is_superuser: false
-    password: "redhat"
+    password: "r3dhat2022"

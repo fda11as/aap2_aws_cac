@@ -4,9 +4,7 @@
   connection: local
   vars:
     controller_validate_certs: false
-    controller_hostname: "44.197.189.177"
-    controller_username: admin
-    controller_password: r3dhat2022
+
   collections:
     - awx.awx
     - redhat_cop.controller_configuration

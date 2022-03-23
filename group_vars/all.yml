@@ -2,5 +2,5 @@
 controller_user_accounts:
   - user: "jcadmus"
     is_superuser: false
-    password: "r3dhat20"
+    password: "r3dhat"
     email: "jcadmus@redhat.com"

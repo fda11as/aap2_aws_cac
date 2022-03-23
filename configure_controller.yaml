@@ -15,6 +15,7 @@
         auditor: yes
         state: present
         controller_host: "{{ controller_host }}"
-        controller_oauthtoken: "{{ controller_token }}"
-        #controller_username: "{{ controller_username }}"
+        # controller_oauthtoken: "{{ controller_token }}"
+        controller_username: "{{ controller_username }}"
+        controller_password: "{{ controller_password }}"
         validate_certs: false

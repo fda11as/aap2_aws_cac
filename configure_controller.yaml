@@ -8,7 +8,7 @@
 
   tasks:
     - name: Add tower user as a system auditor
-      awx.awx.tower_user:
+      awx.awx.user:
         username: redhat
         password: foobarbaz
         email: redhat@example.org

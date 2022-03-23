@@ -1,6 +1,6 @@
 ---
 - name: configure controller
-  hosts: controller01
+  hosts: localhost
   gather_facts: no
   connection: local
 

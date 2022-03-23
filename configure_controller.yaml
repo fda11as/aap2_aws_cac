@@ -9,9 +9,9 @@
   tasks:
     - name: Add tower user as a system auditor
       awx.awx.user:
-        username: jdoe
+        username: redhat
         password: foobarbaz
-        email: jdoe@example.org
+        email: redhat@example.org
         auditor: yes
         state: present
         controller_host: "{{ controller_host }}"
